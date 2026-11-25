@@ -33,18 +33,18 @@ Estruturas de repetição.
 Manipulação de strings.
 ## Funções implementadas
 - Função	Responsabilidade
-- limparBuffer()	Limpar o buffer do teclado
-- lerInteiro()	Validar entradas numéricas
-- lerSimNao()	Validar respostas de sim ou não
-- classificarPaciente()	Definir a prioridade do paciente
-- gerarSenha()	Gerar e armazenar a senha
-- cadastrarPaciente()	Registrar novos pacientes
-- consultarProxima()	Consultar a próxima senha
-- chamarPaciente()	Chamar o próximo paciente
-- finalizarAtendimento()	Finalizar o atendimento atual
-- painel()	Exibir informações das filas
-- menu()	Controlar as opções do sistema
-- main()	Inicializar o programa
+- /limparBuffer()	Limpar o buffer do teclado
+- /lerInteiro()	Validar entradas numéricas
+- /lerSimNao()	Validar respostas de sim ou não
+- /classificarPaciente()	Definir a prioridade do paciente
+- /gerarSenha()	Gerar e armazenar a senha
+- /cadastrarPaciente()	Registrar novos pacientes
+- /consultarProxima()	Consultar a próxima senha
+- /chamarPaciente()	Chamar o próximo paciente
+- /finalizarAtendimento()	Finalizar o atendimento atual
+- /painel()	Exibir informações das filas
+- /menu()	Controlar as opções do sistema
+- /main()	Inicializar o programa
 ## Compilação
 
 É necessário possuir um compilador GCC instalado.

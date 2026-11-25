@@ -1,9 +1,10 @@
-Sistema de Gerenciamento de Senhas de Atendimento Clínico
-Objetivo
+## Sistema de Gerenciamento de Senhas de Atendimento Clínico
+
+## Objetivo
 
 Desenvolver um sistema em linguagem C para gerenciar senhas de atendimento de uma clínica médica, permitindo cadastrar pacientes, classificá-los por prioridade e organizar a fila de atendimento.
 
-Funcionalidades
+## Funcionalidades
 Cadastro de pacientes.
 Classificação automática em três categorias:
 Normal (N).
@@ -15,14 +16,14 @@ Chamada de pacientes.
 Finalização de atendimentos.
 Painel de acompanhamento das filas.
 Controle de prioridade e ordem FIFO.
-Regras de classificação
+## Regras de classificação
 Urgente: pacientes com idade superior a 80 anos.
 Preferencial: gestantes, lactantes, pessoas com necessidades especiais, pessoas com obesidade, mulheres com 60 anos ou mais e homens com 65 anos ou mais.
 Normal: pacientes que não se enquadram nas categorias anteriores.
 
 A categoria urgente possui prioridade sobre a preferencial, que possui prioridade sobre a normal.
 
-Tecnologias utilizadas
+## Tecnologias utilizadas
 Linguagem C.
 Estruturas de dados (struct).
 Vetores.
@@ -30,7 +31,7 @@ Funções.
 Estruturas condicionais.
 Estruturas de repetição.
 Manipulação de strings.
-Funções implementadas
+## Funções implementadas
 Função	Responsabilidade
 limparBuffer()	Limpar o buffer do teclado
 lerInteiro()	Validar entradas numéricas
@@ -44,7 +45,7 @@ finalizarAtendimento()	Finalizar o atendimento atual
 painel()	Exibir informações das filas
 menu()	Controlar as opções do sistema
 main()	Inicializar o programa
-Compilação
+## Compilação
 
 É necessário possuir um compilador GCC instalado.
 
@@ -53,7 +54,7 @@ No terminal, execute:
 bash
 gcc main.c -o clinica -std=c11 -Wall -Wextra
 
-Execução
+## Execução
 
 No Windows:
 
@@ -66,7 +67,7 @@ No Linux:
 bash
 ./clinica
 
-Exemplo de utilização
+## Exemplo de utilização
 Execute o programa.
 Escolha a opção 1 para cadastrar um paciente.
 Informe os dados solicitados.
@@ -75,13 +76,13 @@ Uma senha será gerada.
 Escolha a opção 5 para visualizar o painel.
 Escolha a opção 3 para chamar o próximo paciente.
 Escolha a opção 4 para finalizar o atendimento.
-Exemplo de senhas
+## Exemplo de senhas
 U001: Urgente.
 P001: Preferencial.
 N001: Normal.
 
 As senhas são chamadas respeitando a prioridade e a ordem de cadastro dentro de cada categoria.
 
-Autor
+## Autor
 
 Projeto acadêmico desenvolvido para a avaliação de Algoritmos e Programação em Linguagem C.
